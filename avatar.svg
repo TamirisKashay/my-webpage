@@ -1,0 +1,35 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of layered mountains under an autumn sky">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2C879"/>
+      <stop offset="55%" stop-color="#E6A15C"/>
+      <stop offset="100%" stop-color="#D97F4A"/>
+    </linearGradient>
+    <linearGradient id="ridgeFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7C8E72"/>
+      <stop offset="100%" stop-color="#5E7256"/>
+    </linearGradient>
+    <linearGradient id="ridgeMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#516249"/>
+      <stop offset="100%" stop-color="#3E5C46"/>
+    </linearGradient>
+    <linearGradient id="ridgeNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#33463A"/>
+      <stop offset="100%" stop-color="#26352C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="300" cy="95" r="46" fill="#FBE3A6" opacity="0.9"/>
+
+  <path d="M0,230 L60,150 L120,205 L170,120 L230,210 L280,140 L340,215 L400,175 L400,400 L0,400 Z" fill="url(#ridgeFar)"/>
+  <path d="M0,280 L70,210 L140,260 L210,180 L260,250 L330,190 L400,240 L400,400 L0,400 Z" fill="url(#ridgeMid)"/>
+  <path d="M0,330 L90,265 L150,305 L220,245 L290,310 L400,270 L400,400 L0,400 Z" fill="url(#ridgeNear)"/>
+
+  <g opacity="0.85">
+    <ellipse cx="60" cy="345" rx="10" ry="14" fill="#B5651D"/>
+    <ellipse cx="80" cy="352" rx="8" ry="11" fill="#C9A227"/>
+    <ellipse cx="330" cy="350" rx="9" ry="13" fill="#B5651D"/>
+    <ellipse cx="350" cy="344" rx="7" ry="10" fill="#8C5A2B"/>
+  </g>
+</svg>
